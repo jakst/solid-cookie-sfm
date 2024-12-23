@@ -1,0 +1,21 @@
+{
+	"include": ["./src"],
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "ESNext",
+		"target": "ESNext",
+		"moduleResolution": "bundler",
+		"isolatedModules": true,
+
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"noEmit": true,
+		"types": ["vinxi/types/client", "node"],
+		"baseUrl": "./"
+	}
+}

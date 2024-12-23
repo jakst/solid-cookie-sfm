@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* <main class="p-8 flex justify-center">
+<form action={login} method="post">
+  <button type="submit" class="bg-gray-200 rounded-lg p-4"> */
+
+form {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	background-color: lightgrey;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
